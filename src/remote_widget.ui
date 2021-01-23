@@ -20,7 +20,7 @@
       <enum>Qt::Horizontal</enum>
      </property>
      <property name="childrenCollapsible">
-      <bool>false</bool>
+      <bool>true</bool>
      </property>
      <widget class="QWidget" name="layout" native="true">
       <layout class="QVBoxLayout" name="verticalLayout">
