@@ -60,34 +60,33 @@ QString root = isLocal ? "/" : QString();
   ui.buttonSize->setDefaultAction(ui.getSize);
   ui.buttonExport->setDefaultAction(ui.export_);
 
-  ui.buttonRefresh->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)
-  ui.buttonMkdir->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonRename->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonMove->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonPurge->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonMount->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonStream->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonUpload->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonDownload->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)
-  ui.buttonTree->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonLink->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonSize->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
-  ui.buttonExport->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored)	
+   ui.buttonRefresh->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+  ui.buttonMkdir->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonRename->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonMove->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonPurge->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonMount->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonStream->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonUpload->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonDownload->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+  ui.buttonTree->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonLink->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonSize->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
+  ui.buttonExport->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);	
 
-
-  ui.buttonRefresh->setMinimumSize(1,12)
-  ui.buttonMkdir->setMinimumSize(1,12)	
-  ui.buttonRename->setMinimumSize(1,12)	
-  ui.buttonMove->setMinimumSize(1,12)	
-  ui.buttonPurge->setMinimumSize(1,12)	
-  ui.buttonMount->setMinimumSize(1,12)	
-  ui.buttonStream->setMinimumSize(1,12)	
-  ui.buttonUpload->setMinimumSize(1,12)	
-  ui.buttonDownload->setMinimumSize(1,12)
-  ui.buttonTree->setMinimumSize(1,12)	
-  ui.buttonLink->setMinimumSize(1,12)	
-  ui.buttonSize->setMinimumSize(1,12)	
-  ui.buttonExport->setMinimumSize(1,12)	
+  ui.buttonRefresh->setMinimumSize(1,12);
+  ui.buttonMkdir->setMinimumSize(1,12);	
+  ui.buttonRename->setMinimumSize(1,12);	
+  ui.buttonMove->setMinimumSize(1,12);	
+  ui.buttonPurge->setMinimumSize(1,12);	
+  ui.buttonMount->setMinimumSize(1,12);	
+  ui.buttonStream->setMinimumSize(1,12);	
+  ui.buttonUpload->setMinimumSize(1,12);	
+  ui.buttonDownload->setMinimumSize(1,12);
+  ui.buttonTree->setMinimumSize(1,12);	
+  ui.buttonLink->setMinimumSize(1,12);	
+  ui.buttonSize->setMinimumSize(1,12);	
+  ui.buttonExport->setMinimumSize(1,12);	
 
 
           
